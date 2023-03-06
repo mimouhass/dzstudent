@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    align-items: center;
+}
+
+.orient {
+    backdrop-filter: blur(1px);
+    margin-left: 80px;
+}
+
+.orient h1 {
+    padding: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.fleche {
+    padding: 50px;
+width: 300px;
+height: 300px;
+}
+
+.logo {
+height: 100px;
+width: 100px;
+}
+
+body {
+    background-image: url(../img/logo/ar.png);
+}
+
+section {
+
+    height: 100%;
+    width: 100%;
+}
+
+section .container {
+    max-width: 1100px;
+    margin: 0 auto;
+padding-top: 50px;
+height: 100%;
+}
+
+section .container header,
+section .container header .left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section .container nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section .container nav a {
+    margin-left: 50px;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 16px;
+    text-align: right;
+}
+
+section .container nav a:nth-child(4) {
+font-weight: 600;
+border: 2px solid white;
+padding: 10px 20px;
+border-radius: 50px;
+box-shadow: 2px 2px 5px rgb(6, 213, 240);
+}
+
+.corp {
+    
+    width: 100%;
+    padding: 2px;
+    align-items: center;
+}
+
+.corp h1 {
+    padding: 10px;
+    color: white;
+    font-size: 55px;
+    text-align: center;
+}
+
+.spec {
+    position: flex;
+    display: inline-block;
+    justify-content: space-between;
+ margin: 10px;
+}
+
+.book {
+    position: flex;
+    display: inline-block;
+    justify-content: space-between;
+ margin: 10px; 
+}
+
+.cover {
+        width: 250px;
+    height: 140px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px rgb(6, 213, 240);
+}
+
+
+.pres {
+    width: 470px;
+    height: 450px;
+    backdrop-filter: blur(7px);
+    border: 4px solid white;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px rgb(6, 213, 240);
+}
+
+.pres h1 {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    padding: 40px; 
+}
+
+.pres p {
+    margin: 5px;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+}
+
+.haut {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+}
+
+.social {
+margin-left: 400px;
+}
+
+.social1 {
+    position: flex;
+    display: inline-block;
+margin: 20px;
+}
+
+.choix1 {
+    width: 300px;
+height: 150px;
+margin-left: 170px;
+margin-top: 150px;
+
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+        padding: 50px;
+        margin-left: 200px;
+}
+
+.choix {
+    position: flex;
+    display: inline-block;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2px;
+    align-items: center;
+}
+
+.book{
+ display: contents;
+ align-items: center;
+}
+
+.num {
+
+    display: inline-block;
+    margin: 15px;
+
+}
+
+.pp {
+ 
+    display: inline-block;
+    width: 170px;
+    height: 250px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px rgb(6, 213, 240);
+}
+
+.tit {
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    font-size: 20px;
+    color: white;
+ 
+}
+
+.author {
+    margin-left: 22px;
+    display: flex;
+    font-size: 20px;
+    color: white;  
+}
+
+.tit-cd {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.tit-cd2 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.cd-list {
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+table {
+    border-color: black;
+    border-collapse: collapse;
+    width: 80%;
+  }
+
+  table {
+    border-radius: 30px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid white;
+  }
+
+  tr {
+    text-align: center;
+    background-color: rgb(175, 170, 170);
+  }
+
+  td {
+    text-align: center;
+    background-color: white;
+    border-color: black;
+  }
+
+  th {
+    font-size: 25px;
+    color: blue;
+  }
+
+  .c4 {
+    width: 100px;
+  }
+
+  .c3 {
+    width: 150px;
+  }
+
+  .c1 {
+    width: 60px;
+  }
+
+  .pdf {
+    width: 30px;
+    height: 35px;
+  }
+
+ 
