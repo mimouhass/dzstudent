@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dz Student</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo/14.png" type="image/x-icon">
+
+    <?php
+    session_start();
+    
+    if (!isset($_SESSION['utilisateur_connecte'])) {
+        header("Location: login.php"); // Redirige l'utilisateur vers la page de connexion
+        exit;
+    }
+    ?>
+    
+
+</head>
+<body>
+    <section>
+<div class="container">
+    <header>
+        <div class="left">
+          <a href="#"><img class="logo" src="img/logo/14.png" alt=""></a>  
+        </div>
+        <div class="right">
+            <nav>
+                <a href="index.html">الرئيسية</a>
+                <a href="livres.html">الكتب</a>
+                <a href="memoires.html">المذكرات</a>
+                <a href="#contact">الاتصال بنا</a>
+            </nav>            
+        </div>
+    </header>
+
+   <div class="haut">
+    
+    <div class="pres">
+
+        <h1 class="titre"> مكتبة الطالب الجزائري   </h1>
+        
+        <p>
+            مرحباً بك عزيزي الطالب
+            <br>
+            في هذا الموقع سوف تجد مختلف الكتب والمذكرات حسب اختيارك وتخصصك مختارة من طرف مختصينا و معظم الطلبة بعد بحث طويل و دراسة جمهور معروضة عنهم
+            <br>
+            نوفر لك عدد معتبر منها
+            <br>
+            وإن لم تجد الكتاب الذي تبحث في القائمة فلقد وضعنا لك خيار الإتصال بنا في 
+            <br>
+            أعلى الصفحة لطلب ما تحتاجه حيث يمكنك إستعمال مختلف منصات التواصل الإجتماعي وحتى الإيميل إن أردت<br>
+            وإذا لديكم إقتراحات أخرى تريدون رؤيتها في الموقع فما عليكم إلى مراسلتنا وشكراً
+             <br>
+            وفي الأخير نرجو منكم مشاركة الموقع مع أصدقائكم لكي يستفيدوا معكم 
+        </p>
+
+
+    </div>
+
+    <div class="orient">
+
+        <h1>انزل الى الاسفل لاختيار تخصصك</h1>
+        
+<img src="img/logo/fleche.png" alt="" class="fleche">
+
+    </div >
+
+   </div>
+    
+    
+    <div class="corp"> 
+    <br>
+    <br>
+    <h1>التخصصات </h1>
+
+    <br>
+    <br>    
+        <div class="spec">
+          <a href="pages/droit.html">
+          <img class="cover" src="img/specialite/droit.jpg">
+          </a>
+          
+        </div>
+        <div class="spec">
+          <a href="pages/journalisme.html">
+          <img class="cover" src="img/specialite/journalisme.jpg">
+          </a>
+          
+        </div>
+        <div class="spec">
+          <a href="pages/science po.html">
+          <img class="cover" src="img/specialite/science po.jpg">
+          </a>
+          
+        </div>
+        <div class="spec">
+          <a href="pages/sociologie.html">
+          <img class="cover" src="img/specialite/sociologie.jpg">
+          </a>
+          
+        </div>
+        <div class="spec">
+          <a href="pages/psychologie.html">
+          <img class="cover" src="img/specialite/psychologie.jpg">
+          </a>
+          
+        </div>
+
+        <div class="spec">
+            <a href="pages/math.html">
+            <img class="cover" src="img/specialite/comptabilite.jpg">
+            </a>
+            
+          </div>
+          <div class="spec">
+            <a href="pages/finance.html">
+            <img class="cover" src="img/specialite/finance.jpg">
+            </a>
+            
+          </div>
+          <div class="spec">
+            <a href="pages/islam.html">
+            <img class="cover" src="img/specialite/islam.jpg">
+            </a>
+            
+          </div>
+
+    </div>
+
+   
+             
+</div>      
+
+
+  
+</section>
+
+<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="social">
+
+      <a href="https://discord.com/channels/@7684"><img src="img/icon/discord.png" alt="" class="social1"></a>
+    <a href=""><img src="img/icon/insta.png" alt="" class="social1"></a>
+    <a href=""><img src="img/icon/messenger.png" alt="" class="social1"></a>
+    <a href=""><img src="img/icon/telegram.png" alt="" class="social1"></a>
+    <a href=""><img src="img/icon/twitter.png" alt="" class="social1"></a>
+    <a href=""><img src="img/icon/whatsapp.png" alt="" class="social1"></a>
+    <a href="mailto:mimouhass@gmail.com"><img src="img/icon/gmail.png" alt="" class="social1"></a>
+    
+    </div>
+    
+</body>
+
+</html>
