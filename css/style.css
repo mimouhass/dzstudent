@@ -290,4 +290,9 @@ table {
     height: 35px;
   }
 
- 
+ @media screen and (min-width: 393px) and (max-width: 1024px) {
+  * {
+     width: 30px;
+    height: 35px;
+     }
+  }
